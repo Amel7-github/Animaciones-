@@ -1,0 +1,316 @@
+
+
+
+@keyframes animation1 {
+  0% {
+    transform: rotate(0deg);
+
+  }
+
+ 50% {
+   transform: rotate(35deg);
+
+ }
+
+ 100% {
+   transform: rotate(0deg);
+
+ }
+
+
+}
+
+.man {
+  width: 50%;
+  position: relative;
+  top: 100px;
+  left: 600px;
+  animation-name: animation1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+   @keyframes big-cloud {
+     0% {
+       top: 120px;
+       opacity: 100%;
+     }
+
+     50% {
+       top: 70px;
+       opacity: 0;
+     }
+
+     100% {
+       top: 120px;
+       opacity: 100%;
+     }
+   }
+
+   .cloud1 {
+     width: 27%;
+     position: absolute;
+     top: 220px;
+     left: 20px;
+     animation-name: big-cloud;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+   }
+
+
+
+
+
+   .cloud2 {
+     width: 20%;
+     position: relative;
+     bottom: 300px;
+     right: 200px;
+     animation-name: cloud2;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+   }
+
+
+   @keyframes cloud2 {
+     0% {
+       opacity: 100%;
+       bottom: 300px;
+       right: 200px;
+     }
+
+     50% {
+       opacity: 0%;
+       bottom: 220px;
+       right: 200px;
+     }
+
+     100% {
+       opacity: 100%;
+       bottom: 300px;
+       right: 200px;
+     }
+   }
+
+
+   .cloud3 {
+     width: 20%;
+     position: relative;
+     top: 200px;
+     right: 260px;
+     animation-name: cloud3;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+
+   }
+
+   @keyframes cloud3 {
+     0% {
+       width: 20%;
+       top: 200px;
+       right: 260px;
+       opacity: 100%;
+     }
+
+     50% {
+       width: 20%;
+       top: 140px;
+       right: 260px;
+       opacity: 0%;
+     }
+
+     100% {
+       width: 20%;
+       top: 200px;
+       right: 260px;
+       opacity: 100%;
+     }
+   }
+
+
+  @keyframes cloud-animation4 {
+    0% {
+      width: 20%;
+      opacity: 100%;
+      bottom: 300px;
+      left: 1050px;
+
+    }
+
+    50% {
+      width: 20%;
+      opacity: 0;
+      bottom: 360px;
+      left: 1050px;
+    }
+
+    100% {
+      opacity: 100%;
+      width: 20%;
+      bottom: 300px;
+      left: 1050px;
+    }
+  }
+
+  .cloud4 {
+    width: 6%;
+    position: relative;
+    bottom: 300px;
+    left: 1050px;
+    animation-name: cloud-animation4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+   .img1 {
+     width: 10%;
+     position: absolute;
+     top: 260px;
+     left: 530px;
+     animation-name: document;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+   }
+
+   @keyframes document {
+     0% {
+       left: 530px;
+       opacity: 100%;
+     }
+
+     50% {
+       left: 450px;
+       opacity: 0;
+     }
+
+     100% {
+       left: 530px;
+       opacity: 100%;
+     }
+
+   }
+
+
+  .img2 {
+    width: 10%;
+    position: absolute;
+    top: 260px;
+    left: 400px;
+    animation-name: white;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes white {
+    0% {
+      left: 400px;
+      opacity: 100%;
+    }
+
+    50% {
+      left: 320px;
+      opacity: 0;
+    }
+
+
+    100% {
+      left: 400px;
+      opacity: 100%;
+    }
+
+}
+
+
+
+
+  .img3 {
+   width: 40%;
+   position: absolute;
+   top: 340px;
+   left: 100px;
+   animation-name: all;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+  }
+
+  @keyframes all {
+    0% {
+      top: 340px;
+      left: 100px;
+      opacity: 100%;
+    }
+
+
+    50% {
+      top: 340px;
+      left: 10px;
+      opacity: 0;
+    }
+
+    100% {
+      top: 340px;
+      left: 100px;
+      opacity: 100%
+    }
+  }
+
+
+
+ .img4 {
+   width: 10%;
+   position: absolute;
+   top: 520px;
+   left: 570px;
+   animation-name: plane;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ }
+
+   @keyframes plane {
+     0% {
+       left: 570px;
+       opacity: 100%;
+     }
+
+     50% {
+       left: 510px;
+       opacity: 0;
+     }
+
+     100% {
+       left: 570px;
+       opacity: 100%;
+     }
+
+ }
+
+
+ .img5 {
+   width: 15%;
+   position: absolute;
+   top: 536px;
+   right: 300px;
+   animation-name: engr;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ }
+
+
+ @keyframes engr {
+    0% {
+      opacity: 100%;
+
+    }
+
+    50% {
+      opacity: 0%;
+    }
+
+    100% {
+      opacity: 100%;
+    }
+ }
